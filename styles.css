@@ -1,0 +1,123 @@
+
+html, body, .stApp {
+    background-color: #0b0c10;
+    color: #e6e6e6;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#111217,#0b0c10);
+}
+
+[data-testid="stSidebar"] * {
+    color: #cfd9ff;
+}
+.stButton>button {
+    background: linear-gradient(135deg,#1f77ff,#0b4bd9);
+    color: #a8d6ff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+    box-shadow: 0px 0px 12px rgba(31,119,255,0.5);
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg,#0b4bd9,#082d87);
+    color: #e6f4ff;
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 18px rgba(31,119,255,0.7);
+}
+
+
+.stFileUploader {
+    background-color: #141518;
+    border: 2px dashed #1f77ff;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+
+[data-testid="metric-container"] {
+
+    background: linear-gradient(145deg,#141518,#101114);
+
+    border-radius: 12px;
+
+    padding: 14px;
+
+    border: 1px solid rgba(31,119,255,0.2);
+
+    box-shadow:
+        0px 0px 8px rgba(0,0,0,0.7),
+        0px 0px 8px rgba(31,119,255,0.15);
+}
+
+[data-testid="stDataFrame"] {
+
+    background-color: #141518;
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(31,119,255,0.15);
+
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.6);
+}
+input, textarea {
+
+    background-color: #141518 !important;
+
+    color: #e6e6e6 !important;
+
+    border-radius: 8px;
+
+    border: 1px solid rgba(31,119,255,0.3);
+}
+
+.stTextInput input {
+
+    background-color: #141518;
+
+    color: #dfe6ff;
+
+}
+
+.stSelectbox div {
+
+    background-color: #141518;
+
+    color: #9ac7ff;
+
+}
+.stRadio > div {
+
+    color: #8fb8ff;
+
+}
+
+.stProgress > div > div {
+
+    background: linear-gradient(90deg,#1f77ff,#4ea0ff);
+
+}
+
+h1, h2, h3 {
+
+    color: #9ac7ff;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f77ff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0c10;
+}
