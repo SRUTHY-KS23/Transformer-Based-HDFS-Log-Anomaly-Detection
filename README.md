@@ -7,6 +7,8 @@ This project implements a Transformer-based anomaly detection framework for Hado
 
 The system parses raw HDFS logs, constructs structured event sequences, and applies a Transformer model with self-attention mechanisms to identify abnormal system behavior. The framework is designed to improve anomaly detection accuracy, scalability, and interpretability in distributed computing environments.
 
+
+
 ## Features
 
 * HDFS log parsing and preprocessing
@@ -18,6 +20,19 @@ The system parses raw HDFS logs, constructs structured event sequences, and appl
 * Streamlit-based visualization interface
 * Performance evaluation using precision, recall, accuracy, and F1-score
 
+## Dataset Notice
+
+The HDFS dataset used in this project is large in size and cannot be uploaded directly to this repository due to GitHub file size limitations.
+
+You can download the dataset from the official LogHub repository:
+
+https://github.com/logpai/loghub
+
+Dataset Used:
+
+* HDFS_v1
+
+After downloading, place the dataset inside the project dataset directory before running the application.
 
 ## Tech Stack
 
